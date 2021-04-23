@@ -11,7 +11,7 @@ class ImageSlider extends React.Component {
    render() {
     return(
       <div>
-        <p>I am on slide {this.state.currentSlideIndex}, where {this.state.currentSlideIndex} is the value of {this.state.currentSlideIndex}.
+        <p>I am on slide {this.state.currentSlideIndex}, where {this.state.currentSlideIndex} is the value of {this.state.currentSlideIndex}.</p>
       </div>
     );
   }
