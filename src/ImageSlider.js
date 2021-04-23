@@ -1,12 +1,17 @@
 import React from 'react'
 
 class ImageSlider extends React.Component {
-  
+  constructor() {
+    super();
+      this.state= {
+        currentSlideIndex: 0
+      }
+  }
   
    render() {
     return(
       <div>
-        <h1>Another Thing</h1>
+        <p>I am on slide {this.state.currentSlideIndex}, where {this.state.currentSlideIndex} is the value of {this.state.currentSlideIndex}.
       </div>
     );
   }
